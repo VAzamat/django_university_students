@@ -1,0 +1,22 @@
+{% extends 'students/base.html' %}
+{% block content_SingleStudentCard %}
+
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">{{student_item.first_name}} {{student_item.last_name}}</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title"><small class="text-body-secondary fw-light"> Студент</small></h1>
+              Имя: {{student_item.first_name}}<br>
+              Фамилия: {{student_item.last_name}}<br>
+
+             <a class="btn btn-primary" href="{% url 'students:student_list'  %}" role="button">Назад ...</a>
+
+
+
+          </div>
+        </div>
+      </div>
+
+{% endblock %}

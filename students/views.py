@@ -11,7 +11,7 @@ def student_list(request):
         'student_list': students
     }
 
-    return render(request, 'students/index.html', context)
+    return render(request, 'students/student_list.html', context)
 
 def student_detail(request, pk):
     student = get_object_or_404(Student,pk=pk)
@@ -21,4 +21,4 @@ def student_detail(request, pk):
         'student_item': student
     }
 
-    return render(request, 'students/index.html', context)
+    return render(request, 'students/student_detail.html', context)
