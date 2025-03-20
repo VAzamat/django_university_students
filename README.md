@@ -7,6 +7,8 @@
 
 ### Эволюция проекта
 - [x] Классная работа "20.1 Работа с ORM (Object-Relational Mapping) в Django"
+- [x] Классная работа "20.2 Работа с шаблонами, статическими файлами, шаблоном bootstrap"
+
 ### Шаг за шагом
 
 #### 20.1 Работа с ORM (Object-Relational Mapping) в Django
@@ -18,3 +20,9 @@
  - Создаем контроллер index в views.py и страницу templates/students/index.html
  - Настраиваем админку, python manage.py createsuperuser
  - Заполнение базы данных python manage.py dumpdata и loaddata
+
+#### 20.2  Шаблонизация в Django
+
+ - Настройка статических файлов
+ - Шаблоны на основе Bootstrap
+ - Подшаблоны и базовые шаблоны
