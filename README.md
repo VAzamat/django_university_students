@@ -12,4 +12,9 @@
 #### 20.1 Работа с ORM (Object-Relational Mapping) в Django
 
  - Настройка работы с базой данных  СУБД PostgreSQL
+ - Создаем модель в Django для класса студент (class Student)
+ - Создаем миграцию и применяем миграцию с номером 0001
  - Настраиваем пути в urls.py, MEDIA_URL и MEDIA_ROOT
+ - Создаем контроллер index в views.py и страницу templates/students/index.html
+ - Настраиваем админку, python manage.py createsuperuser
+ - Заполнение базы данных python manage.py dumpdata и loaddata
