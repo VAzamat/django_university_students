@@ -1,4 +1,5 @@
 {% extends 'students/base.html' %}
+{% load path_tag_filter %}
 {% block content_SingleStudentCard %}
   {% for student_item in student_list %}
       <div class="col">
@@ -10,6 +11,8 @@
             <h1 class="card-title pricing-card-title"><small class="text-body-secondary fw-light"> Студент</small></h1>
               Имя: {{student_item.first_name}}<br>
               Фамилия: {{student_item.last_name}}<br>
+            <img src="{% get_media_prefix student_item.avatar %}" alt="Avatar"><br>
+
 
 
             <a class="btn btn-primary" href="{% url 'students:student_detail' student_item.pk %}" role="button">Подробнее ...</a>
