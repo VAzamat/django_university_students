@@ -19,3 +19,9 @@ class MaterialUpdateView(UpdateView):
     fields = ('title', "body",)
     template_name = "materials/material_update.html"
     success_url = reverse_lazy('materials:list')
+
+class MaterialCreateView(CreateView):
+    model = Material
+    fields = ('title', "body",)
+    template_name = "materials/material_update.html"
+    success_url = reverse_lazy('materials:list')
