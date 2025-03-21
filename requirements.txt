@@ -1,22 +1,5 @@
-Requirement already satisfied: Django in ./env/lib/python3.10/site-packages (5.1.7)
-Requirement already satisfied: ipython in ./env/lib/python3.10/site-packages (8.34.0)
-Requirement already satisfied: pillow in ./env/lib/python3.10/site-packages (11.1.0)
-Requirement already satisfied: psycopg2 in ./env/lib/python3.10/site-packages (2.9.10)
-Requirement already satisfied: asgiref<4,>=3.8.1 in ./env/lib/python3.10/site-packages (from Django) (3.8.1)
-Requirement already satisfied: sqlparse>=0.3.1 in ./env/lib/python3.10/site-packages (from Django) (0.5.3)
-Requirement already satisfied: decorator in ./env/lib/python3.10/site-packages (from ipython) (5.2.1)
-Requirement already satisfied: exceptiongroup in ./env/lib/python3.10/site-packages (from ipython) (1.2.2)
-Requirement already satisfied: jedi>=0.16 in ./env/lib/python3.10/site-packages (from ipython) (0.19.2)
-Requirement already satisfied: matplotlib-inline in ./env/lib/python3.10/site-packages (from ipython) (0.1.7)
-Requirement already satisfied: pexpect>4.3 in ./env/lib/python3.10/site-packages (from ipython) (4.9.0)
-Requirement already satisfied: prompt_toolkit<3.1.0,>=3.0.41 in ./env/lib/python3.10/site-packages (from ipython) (3.0.50)
-Requirement already satisfied: pygments>=2.4.0 in ./env/lib/python3.10/site-packages (from ipython) (2.19.1)
-Requirement already satisfied: stack_data in ./env/lib/python3.10/site-packages (from ipython) (0.6.3)
-Requirement already satisfied: traitlets>=5.13.0 in ./env/lib/python3.10/site-packages (from ipython) (5.14.3)
-Requirement already satisfied: typing_extensions>=4.6 in ./env/lib/python3.10/site-packages (from ipython) (4.12.2)
-Requirement already satisfied: parso<0.9.0,>=0.8.4 in ./env/lib/python3.10/site-packages (from jedi>=0.16->ipython) (0.8.4)
-Requirement already satisfied: ptyprocess>=0.5 in ./env/lib/python3.10/site-packages (from pexpect>4.3->ipython) (0.7.0)
-Requirement already satisfied: wcwidth in ./env/lib/python3.10/site-packages (from prompt_toolkit<3.1.0,>=3.0.41->ipython) (0.2.13)
-Requirement already satisfied: executing>=1.2.0 in ./env/lib/python3.10/site-packages (from stack_data->ipython) (2.2.0)
-Requirement already satisfied: asttokens>=2.1.0 in ./env/lib/python3.10/site-packages (from stack_data->ipython) (3.0.0)
-Requirement already satisfied: pure-eval in ./env/lib/python3.10/site-packages (from stack_data->ipython) (0.2.3)
+Django
+psycopg2
+pip
+pillow
+pytils
