@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.urls import reverse_lazy
 
-from django.views.generic import  CreateView, ListView, DetailView, UpdateView
+from django.views.generic import  CreateView, ListView, DetailView, UpdateView, DeleteView
 
 
 from materials.models import Material
@@ -24,4 +24,8 @@ class MaterialCreateView(CreateView):
     model = Material
     fields = ('title', "body",)
     template_name = "materials/material_update.html"
+    success_url = reverse_lazy('materials:list')
+
+class MaterialDeleteView(DeleteView):
+    model = Material
     success_url = reverse_lazy('materials:list')

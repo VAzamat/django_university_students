@@ -13,10 +13,9 @@
 
 
 
-            <a class="btn btn-primary" href="{% url 'materials:detail' object.pk %}" role="button">Подробнее ...</a>
+            <a class="btn btn-primary" href="{% url 'materials:detail' object.pk %}" role="button">Подробнее</a>
             <a class="btn btn-primary" href="{% url 'materials:update' object.pk %}" role="button">Изменить</a>
-
-
+            <a class="btn btn-primary" href="{% url 'materials:delete' object.pk %}" role="button">Delete</a>
           </div>
         </div>
       </div>

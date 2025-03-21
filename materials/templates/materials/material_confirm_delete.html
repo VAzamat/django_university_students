@@ -1,0 +1,15 @@
+{% extends 'materials/base.html' %}
+{% block content_SingleMaterialCard %}
+ <div class="row">
+      <div class="col">
+          <form method="post">
+	        {% csrf_token %}
+             <p>Действительно хотите удалить данный учебный курс:</p>
+              <p> <b>{{object.title}} </b> </p>
+              <p> {{object.body}} </p>
+              <button type="submit" class="btn btn-success">Подтвердить</button>
+              <a href="{% url 'materials:list' %}" class="btn btn-success btn-warning">Отмена</a>
+          </form>
+      </div>
+ </div>
+{% endblock %}
