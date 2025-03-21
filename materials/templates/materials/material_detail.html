@@ -1,5 +1,6 @@
 {% extends 'materials/base.html' %}
 {% block content_SingleMaterialCard %}
+    <div class="row text-center">
       <div class="col">
         <div class="card mb-2 rounded-3 shadow-sm border-primary">
           <div class="card-header py-3 text-bg-primary border-primary">
@@ -11,10 +12,11 @@
 
 
 
-            <a class="btn btn-primary" href="{% url 'materials:list' %}" role="button">Назад</a>
+            <a class="btn btn-primary" href="{% url 'materials:list' %}" role="button">Список материалов</a>
 
 
           </div>
         </div>
       </div>
+    </div>
 {% endblock %}
