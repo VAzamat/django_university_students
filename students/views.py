@@ -13,7 +13,10 @@ class StudentDetailView(DetailView):
 
 class StudentListView(ListView):
     model = Student
-    #template_name = "students/student_list.html"
+    def get_queryset(self, *args, **kwargs):
+        queryset = super().get_queryset(*args, **kwargs)
+        queryset = queryset.filter(is_active=True)
+        return queryset
 
 class StudentCreateView(CreateView):
     model = Student

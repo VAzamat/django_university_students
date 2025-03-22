@@ -22,7 +22,7 @@ def mediapath(path):
         {{"python/Minduka_Present_Blue_Pack.png"|mediapath}}
 
     """
-    fullpath = os.path.join("", settings.MEDIA_URL, str(path) )
+    fullpath = os.path.join(settings.BASE_DIR, settings.MEDIA_URL, str(path) )
     return fullpath
 
 
@@ -40,6 +40,6 @@ def get_media_prefix(path):
 
 
     """
-    fullpath = os.path.join("", settings.MEDIA_URL, str(path) )
+    fullpath = os.path.join(settings.BASE_DIR, settings.MEDIA_URL, str(path) )
     return fullpath
 
