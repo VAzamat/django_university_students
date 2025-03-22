@@ -12,7 +12,13 @@
             ФИО: {{object.last_name}} {{object.first_name}} {{object.patronymic}}
             <img src="{% get_media_prefix object.avatar %}" alt="Avatar" width="500px"><br>
 
-             <a class="btn btn-primary" href="{% url 'students:list'  %}" role="button">К полному списку студентов</a>
+             <a class="btn btn-primary" href="{% url 'students:list'  %}" role="button">К полному списку студентов</a> <br/>
+            {% if object.is_active %}
+              <a class="btn btn-primary" href="{% url 'students:toggle_activity' object.pk %}" role="button">Деактивировать</a>
+            {% else %}
+              <a class="btn btn-primary" href="{% url 'students:toggle_activity' object.pk %}" role="button">Активировать</a>
+            {% endif %}
+
 </div>
 
 

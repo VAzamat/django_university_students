@@ -1,5 +1,6 @@
 from django.urls import path
-from students.views import StudentDetailView, StudentListView, StudentUpdateView, StudentCreateView, StudentDeleteView
+from students.views import StudentDetailView, StudentListView, StudentUpdateView, StudentCreateView, StudentDeleteView, \
+    toggle_activity
 
 from students.apps import StudentsConfig
 
@@ -11,4 +12,5 @@ urlpatterns = [
     path("student/create/", StudentCreateView.as_view(), name='create'),
     path("student/update/<int:pk>/", StudentUpdateView.as_view(), name='update'),
     path("student/delete/<int:pk>/", StudentDeleteView.as_view(), name='delete'),
+    path("student/toggle_activity/<int:pk>/", toggle_activity, name='toggle_activity'),
 ]

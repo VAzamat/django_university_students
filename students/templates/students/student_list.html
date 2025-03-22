@@ -21,6 +21,12 @@
             <a class="btn btn-primary" href="{% url 'students:detail' object.pk %}" role="button">Подробнее ...</a>
             <a class="btn btn-primary" href="{% url 'students:update' object.pk %}" role="button">Изменить</a>
             <a class="btn btn-primary" href="{% url 'students:delete' object.pk %}" role="button">Удалить</a>
+            {% if object.is_active %}
+              <a class="btn btn-primary" href="{% url 'students:toggle_activity' object.pk %}" role="button">Деактивировать</a>
+            {% else %}
+              <a class="btn btn-primary" href="{% url 'students:toggle_activity' object.pk %}" role="button">Активировать</a>
+            {% endif %}
+
 
 
           </div>

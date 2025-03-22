@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.urls import reverse_lazy, reverse
 from django.views.generic import  CreateView, ListView, DetailView, UpdateView, DeleteView
 from students.models import Student
@@ -13,10 +13,7 @@ class StudentDetailView(DetailView):
 
 class StudentListView(ListView):
     model = Student
-    def get_queryset(self, *args, **kwargs):
-        queryset = super().get_queryset(*args, **kwargs)
-        queryset = queryset.filter(is_active=True)
-        return queryset
+
 
 class StudentCreateView(CreateView):
     model = Student
@@ -32,3 +29,11 @@ class StudentUpdateView(UpdateView):
 class StudentDeleteView(DeleteView):
     model = Student
     success_url = reverse_lazy('students:list')
+
+
+def toggle_activity(request, pk):
+    student_item = get_object_or_404(Student,pk=pk)
+    student_item.is_active = not student_item.is_active
+    student_item.save()
+
+    return redirect( reverse_lazy('students:list') )
