@@ -11,6 +11,10 @@ from materials.models import Material
 class MaterialListView(ListView):
     model = Material
 
+    def get_queryset(self, *args, **kwargs):
+        queryset = super().get_queryset(*args, **kwargs)
+        queryset = queryset.filter(is_published=True)
+        return queryset
 
 class MaterialDetailView(DetailView):
     model = Material
@@ -23,13 +27,13 @@ class MaterialDetailView(DetailView):
 
 class MaterialUpdateView(UpdateView):
     model = Material
-    fields = ('title', "body",)
+    fields = ('title', "body", "is_published")
     template_name = "materials/material_update.html"
     success_url = reverse_lazy('materials:list')
 
 class MaterialCreateView(CreateView):
     model = Material
-    fields = ('title', "body",)
+    fields = ('title', "body", "is_published")
     template_name = "materials/material_update.html"
     success_url = reverse_lazy('materials:list')
 
