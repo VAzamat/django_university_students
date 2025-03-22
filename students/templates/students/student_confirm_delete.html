@@ -1,0 +1,14 @@
+{% extends 'students/base.html' %}
+{% block content_SingleStudentCard %}
+ <div class="row">
+      <div class="col">
+          <form method="post">
+	        {% csrf_token %}
+             <p>Действительно хотите удалить данного студента:</p>
+              <p> <b>{{object.last_name}} {{object.first_name}} {{object.patronymic}} </b> </p>
+              <button type="submit" class="btn btn-success">Подтвердить</button>
+              <a href="{% url 'students:list' %}" class="btn btn-success btn-warning">Отмена</a>
+          </form>
+      </div>
+ </div>
+{% endblock %}

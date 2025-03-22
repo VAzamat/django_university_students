@@ -1,0 +1,18 @@
+{% extends 'students/base.html' %}
+{% block content_SingleStudentCard %}
+<div class ="row text-center">
+    <div class="col-5">
+
+          <form method="post">
+	        {% csrf_token %}
+             {{ form.as_p }}
+              {% if object %}
+                            <button type="submit" class="btn btn-success">Сохранить изменения</button>
+              {% else %}
+                            <button type="submit" class="btn btn-success">Создать нового студента</button>
+              {% endif %}
+          </form>
+
+    </div>
+</div>
+{% endblock %}
