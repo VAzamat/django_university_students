@@ -1,27 +1,31 @@
 {% extends 'students/base.html' %}
 {% load path_tag_filter %}
 {% block content_SingleStudentCard %}
-  {% for student_item in student_list %}
+<div class="row row-cols-1 row-cols-md-2 mb-2 text-center">
+  {% for object in object_list %}
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm border-primary">
           <div class="card-header py-3 text-bg-primary border-primary">
-            <h4 class="my-0 fw-normal">{{student_item.last_name}} {{student_item.first_name}} {{student_item.patronymic}}</h4>
+            <h4 class="my-0 fw-normal">{{object.last_name}} {{object.first_name}} {{object.patronymic}}</h4>
           </div>
           <div class="card-body">
             <h1 class="card-title pricing-card-title"><small class="text-body-secondary fw-light"> </small></h1>
 
-            Фамилия: {{student_item.last_name}}<br>
-            Имя: {{student_item.first_name}}<br>
-            Отчество: {{student_item.patronymic}}<br>
-            <img src="{% get_media_prefix student_item.avatar %}" alt="Avatar"><br>
+            Фамилия: {{object.last_name}}<br>
+            Имя: {{object.first_name}}<br>
+            Отчество: {{object.patronymic}}<br>
+            <img src="{% get_media_prefix object.avatar %}" alt="Avatar"><br>
 
 
 
-            <a class="btn btn-primary" href="{% url 'students:student_detail' student_item.pk %}" role="button">Подробнее ...</a>
+            <a class="btn btn-primary" href="{% url 'students:detail' object.pk %}" role="button">Подробнее ...</a>
+            <a class="btn btn-primary" href="{% url 'students:update' object.pk %}" role="button">Изменить</a>
+            <a class="btn btn-primary" href="{% url 'students:delete' object.pk %}" role="button">Удалить</a>
 
 
           </div>
         </div>
       </div>
   {% endfor %}
+</div>
 {% endblock %}
