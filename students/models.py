@@ -5,6 +5,7 @@ from django.db import models
 class Student(models.Model):
     first_name = models.CharField(max_length=150, verbose_name='имя')
     last_name = models.CharField(max_length=150, verbose_name='фамилия')
+    patronymic = models.CharField(max_length=150, verbose_name='отчество')
     avatar = models.ImageField(upload_to="students/", verbose_name="аватар", null=True, blank=True)
     is_active = models.BooleanField(default=True, verbose_name="учится")
 
