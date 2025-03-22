@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.urls import reverse_lazy
+from django.urls import reverse_lazy, reverse
 
 from django.views.generic import  CreateView, ListView, DetailView, UpdateView, DeleteView
 from pytils.translit import slugify
@@ -29,7 +29,10 @@ class MaterialUpdateView(UpdateView):
     model = Material
     fields = ('title', "body", "is_published")
     template_name = "materials/material_update.html"
-    success_url = reverse_lazy('materials:list')
+    #success_url = reverse_lazy('materials:list')
+
+    def get_success_url(self):
+        return reverse('materials:detail', args=[self.kwargs.get('pk')] )
 
     def form_valid(self, form):
         if form.is_valid():
