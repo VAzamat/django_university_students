@@ -1,18 +1,48 @@
 {% extends 'students/base.html' %}
 {% block content_SingleStudentCard %}
-<div class ="row text-center">
-    <div class="col-5">
+<div class ="row text-start">
+    <div class="col-12">
+    <form class="row" method="post" enctype="multipart/form-data">
+        <div class="col-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        Добавление студента
+                    </h3>
+                </div>
+                <div class="card-body">
+                     {% csrf_token %}
+                     {{ form.as_p }}
 
-          <form method="post" enctype="multipart/form-data">
-	        {% csrf_token %}
-             {{ form.as_p }}
-              {% if object %}
-                            <button type="submit" class="btn btn-success">Сохранить изменения</button>
-              {% else %}
-                            <button type="submit" class="btn btn-success">Создать нового студента</button>
-              {% endif %}
-          </form>
-
+                </div>
+                <div class="card-footer">
+                      {% if object %}
+                                    <button type="submit" class="btn btn-success">Сохранить изменения (студент/предмет)</button>
+                      {% else %}
+                                    <button type="submit" class="btn btn-success">Создать нового студента</button>
+                      {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">
+                        Предметы студента
+                    </h3>
+                </div>
+                <div class="card-body">
+                    {{ formset.management_form }}
+                    {% for form in formset.forms %}
+                     {{ form.as_p }}
+                     {% if not foorloop.last %}
+                      <hr/><hr/>
+                     {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
     </div>
+    </form>
 </div>
 {% endblock %}

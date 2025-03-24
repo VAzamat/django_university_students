@@ -14,7 +14,7 @@ class StudentForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Student # Обязательно указываем модель
         #fields = '__all__' # и перечисляем поля для отображения
-        fields = ('first_name', 'last_name', 'avatar', 'email', )
+        fields = ('last_name', 'first_name', 'patronymic', 'avatar', 'email', )
 
     def clean_email(self):
         cleaned_data = self.cleaned_data['email']
@@ -24,7 +24,7 @@ class StudentForm(StyleFormMixin, forms.ModelForm):
 
         return cleaned_data
 
-class SubjectForm(forms.ModelForm):
+class SubjectForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Subject
         fields = ('title','description')

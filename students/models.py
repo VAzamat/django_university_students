@@ -27,6 +27,10 @@ class Subject(models.Model):
     description = models.TextField(verbose_name='описание', help_text='Введите описание учебного предмета')
 
     student = models.ForeignKey(Student, on_delete=models.CASCADE, verbose_name='студент')
+
+    def __str__(self):
+        return f'{self.title}'
+
     class Meta:
         verbose_name = 'Предмет' # Настройка для наименования одного объекта
         verbose_name_plural = 'Предметы' # Настройка для наименования набора объектов
