@@ -7,4 +7,5 @@ class StudentForm(forms.ModelForm):
     # весь необходимый функционал, который нужно настроить
     class Meta:
         model = Student # Обязательно указываем модель
-        fields = '__all__' # и перечисляем поля для отображения
+        #fields = '__all__' # и перечисляем поля для отображения
+        fields = ('first_name', 'last_name', 'avatar', 'email', )

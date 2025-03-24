@@ -6,6 +6,6 @@ from students.models import Student
 
 @admin.register(Student)
 class StudentAdmin(admin.ModelAdmin):
-    list_display = ('first_name', 'last_name', 'patronymic')
+    list_display = ('first_name', 'last_name', 'patronymic','email')
     list_filter = ('is_active',)
     search_fields = ('first_name', 'last_name', 'patronymic')
