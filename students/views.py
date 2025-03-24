@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.urls import reverse_lazy, reverse
 from django.views.generic import  CreateView, ListView, DetailView, UpdateView, DeleteView
 from students.models import Student
-
+from students.forms import StudentForm
 
 
 # Create your views here.
@@ -17,12 +17,14 @@ class StudentListView(ListView):
 
 class StudentCreateView(CreateView):
     model = Student
-    fields = ("last_name", 'first_name', "patronymic", "is_active", "avatar")
+    form_class = StudentForm
+    #fields = ("last_name", 'first_name', "patronymic", "is_active", "avatar")
     success_url = reverse_lazy('students:list')
 
 class StudentUpdateView(UpdateView):
     model = Student
-    fields = ("last_name", 'first_name', "patronymic", "is_active", "avatar")
+    form_class = StudentForm
+    #fields = ("last_name", 'first_name', "patronymic", "is_active", "avatar")
     def get_success_url(self):
         return reverse('students:detail', args=[self.kwargs.get('pk')] )
 
