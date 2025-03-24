@@ -1,6 +1,6 @@
 from django import forms
 
-from students.models import Student
+from students.models import Student, Subject
 
 class StyleFormMixin:
     def __init__(self, *args, **kwargs):
@@ -24,6 +24,10 @@ class StudentForm(StyleFormMixin, forms.ModelForm):
 
         return cleaned_data
 
+class SubjectForm(forms.ModelForm):
+    class Meta:
+        model = Subject
+        fields = ('title','description')
 
 
 

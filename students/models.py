@@ -14,10 +14,20 @@ class Student(models.Model):
 
     def __str__(self):
         # Строковое отображение объекта
-        return f'{self.first_name} {self.last_name} {self.is_active}'
+        return f'{self.last_name} {self.first_name} {self.patronymic}'
 
 
     class Meta:
         verbose_name = 'студент' # Настройка для наименования одного объекта
         verbose_name_plural = 'студенты' # Настройка для наименования набора объектов
         ordering = ('last_name',)
+
+class Subject(models.Model):
+    title = models.CharField(max_length=150, verbose_name='название', help_text='Введите название учебного предмета')
+    description = models.TextField(verbose_name='описание', help_text='Введите описание учебного предмета')
+
+    student = models.ForeignKey(Student, on_delete=models.CASCADE, verbose_name='студент')
+    class Meta:
+        verbose_name = 'Предмет' # Настройка для наименования одного объекта
+        verbose_name_plural = 'Предметы' # Настройка для наименования набора объектов
+        ordering = ('title',)
