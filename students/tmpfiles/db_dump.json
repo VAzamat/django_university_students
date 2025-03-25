@@ -1,102 +1,1217 @@
 [
-{"model": "students.student", "pk": 100, "fields": {"first_name": "Ярослав", "last_name": "Михеев", "patronymic": "Марсельевич", "avatar": "students/desura.png", "is_active": true} },
-{"model": "students.student", "pk": 1, "fields": {"first_name": "Кирилл", "last_name": "Гусев", "patronymic": "Тимофеевич", "avatar": "students/aafm.png", "is_active": true} },
-{"model": "students.student", "pk": 2, "fields": {"first_name": "Агата", "last_name": "Власова", "patronymic": "Максимовна", "avatar": "students/abe.png", "is_active": true} },
-{"model": "students.student", "pk": 3, "fields": {"first_name": "Иван", "last_name": "Калмыков", "patronymic": "Александрович", "avatar": "students/adventures-of-shuggy.png", "is_active": true} },
-{"model": "students.student", "pk": 4, "fields": {"first_name": "Александра", "last_name": "Герасимова", "patronymic": "Петровна", "avatar": "students/afl.png", "is_active": true} },
-{"model": "students.student", "pk": 5, "fields": {"first_name": "Полина", "last_name": "Казакова", "patronymic": "Егоровна", "avatar": "students/alan-wake.png", "is_active": true} },
-{"model": "students.student", "pk": 6, "fields": {"first_name": "Ангелина", "last_name": "Яковлева", "patronymic": "Артемьевна", "avatar": "students/alienfx.png", "is_active": true} },
-{"model": "students.student", "pk": 7, "fields": {"first_name": "Станислав", "last_name": "Большаков", "patronymic": "Гордеевич", "avatar": "students/annas-quest.png", "is_active": true} },
-{"model": "students.student", "pk": 8, "fields": {"first_name": "Анастасия", "last_name": "Михайлова", "patronymic": "Максимовна", "avatar": "students/appimagekit-Black_Chocobo.png", "is_active": true} },
-{"model": "students.student", "pk": 9, "fields": {"first_name": "Ярослав", "last_name": "Спиридонов", "patronymic": "Михайлович", "avatar": "students/armitage.png", "is_active": true} },
-{"model": "students.student", "pk": 10, "fields": {"first_name": "Александр", "last_name": "Горелов", "patronymic": "Владиславович", "avatar": "students/baldis-basics.png", "is_active": true} },
-{"model": "students.student", "pk": 11, "fields": {"first_name": "Иван", "last_name": "Ильин", "patronymic": "Владиславович", "avatar": "students/Black_Chocobo.png", "is_active": true} },
-{"model": "students.student", "pk": 12, "fields": {"first_name": "Юлия", "last_name": "Федорова", "patronymic": "Данииловна", "avatar": "students/catfish.png", "is_active": true} },
-{"model": "students.student", "pk": 13, "fields": {"first_name": "Варвара", "last_name": "Круглова", "patronymic": "Алексеевна", "avatar": "students/com.github.elfenware.badger.png", "is_active": true} },
-{"model": "students.student", "pk": 14, "fields": {"first_name": "Виктор", "last_name": "Соловьев", "patronymic": "Арсентьевич", "avatar": "students/com.jonathankang.Weibird.png", "is_active": true} },
-{"model": "students.student", "pk": 15, "fields": {"first_name": "Лиана", "last_name": "Орлова", "patronymic": "Алексеевна", "avatar": "students/corebird.png", "is_active": true} },
-{"model": "students.student", "pk": 16, "fields": {"first_name": "Амина", "last_name": "Пономарева", "patronymic": "Ярославовна", "avatar": "students/cpu-x.png", "is_active": true} },
-{"model": "students.student", "pk": 17, "fields": {"first_name": "Дарина", "last_name": "Белякова", "patronymic": "Ивановна", "avatar": "students/cuttlefish.png", "is_active": true} },
-{"model": "students.student", "pk": 18, "fields": {"first_name": "Владислав", "last_name": "Калинин", "patronymic": "Иванович", "avatar": "students/danganronpa.png", "is_active": true} },
-{"model": "students.student", "pk": 19, "fields": {"first_name": "Александр", "last_name": "Козловский", "patronymic": "Александрович", "avatar": "students/dbeaver.png", "is_active": true} },
-{"model": "students.student", "pk": 20, "fields": {"first_name": "Мария", "last_name": "Фролова", "patronymic": "Михайловна", "avatar": "students/dino.png", "is_active": true} },
-{"model": "students.student", "pk": 21, "fields": {"first_name": "Евгения", "last_name": "Кудряшова", "patronymic": "Максимовна", "avatar": "students/distributor-logo-freedos.png", "is_active": true} },
-{"model": "students.student", "pk": 22, "fields": {"first_name": "Владислав", "last_name": "Баранов", "patronymic": "Святославович", "avatar": "students/distributor-logo-madlinux.png", "is_active": true} },
-{"model": "students.student", "pk": 23, "fields": {"first_name": "Стефания", "last_name": "Чернышева", "patronymic": "Львовна", "avatar": "students/dk.tangramgames.mrrescue.png", "is_active": true} },
-{"model": "students.student", "pk": 24, "fields": {"first_name": "Ирина", "last_name": "Кузьмина", "patronymic": "Александровна", "avatar": "students/dont-starve-together.png", "is_active": true} },
-{"model": "students.student", "pk": 25, "fields": {"first_name": "Тимур", "last_name": "Глухов", "patronymic": "Сергеевич", "avatar": "students/dsda-doom.png", "is_active": true} },
-{"model": "students.student", "pk": 26, "fields": {"first_name": "Софья", "last_name": "Артамонова", "patronymic": "Александровна", "avatar": "students/duckduckgo.png", "is_active": true} },
-{"model": "students.student", "pk": 27, "fields": {"first_name": "Лев", "last_name": "Пастухов", "patronymic": "Максимович", "avatar": "students/duckstation.png", "is_active": true} },
-{"model": "students.student", "pk": 28, "fields": {"first_name": "Кирилл", "last_name": "Петров", "patronymic": "Ильич", "avatar": "students/emule.png", "is_active": true} },
-{"model": "students.student", "pk": 29, "fields": {"first_name": "Анна", "last_name": "Коновалова", "patronymic": "Николаевна", "avatar": "students/epiphany-game.png", "is_active": true} },
-{"model": "students.student", "pk": 30, "fields": {"first_name": "Иван", "last_name": "Зайцев", "patronymic": "Алексеевич", "avatar": "students/falkon.png", "is_active": true} },
-{"model": "students.student", "pk": 31, "fields": {"first_name": "Полина", "last_name": "Хохлова", "patronymic": "Михайловна", "avatar": "students/funkin.png", "is_active": true} },
-{"model": "students.student", "pk": 32, "fields": {"first_name": "Мария", "last_name": "Игнатова", "patronymic": "Львовна", "avatar": "students/gajim.png", "is_active": true} },
-{"model": "students.student", "pk": 33, "fields": {"first_name": "Анастасия", "last_name": "Попова", "patronymic": "Артёмовна", "avatar": "students/gens-gs.png", "is_active": true} },
-{"model": "students.student", "pk": 34, "fields": {"first_name": "Дмитрий", "last_name": "Кулешов", "patronymic": "Робертович", "avatar": "students/gimp.png", "is_active": true} },
-{"model": "students.student", "pk": 35, "fields": {"first_name": "Виктория", "last_name": "Измайлова", "patronymic": "Павловна", "avatar": "students/google-contacts.png", "is_active": true} },
-{"model": "students.student", "pk": 36, "fields": {"first_name": "Кира", "last_name": "Фролова", "patronymic": "Александровна", "avatar": "students/gpodder.png", "is_active": true} },
-{"model": "students.student", "pk": 37, "fields": {"first_name": "Леонид", "last_name": "Соловьев", "patronymic": "Степанович", "avatar": "students/grim-fandango-remastered.png", "is_active": true} },
-{"model": "students.student", "pk": 38, "fields": {"first_name": "Мария", "last_name": "Логинова", "patronymic": "Николаевна", "avatar": "students/gta-vice-city.png", "is_active": true} },
-{"model": "students.student", "pk": 39, "fields": {"first_name": "Елизавета", "last_name": "Сергеева", "patronymic": "Давидовна", "avatar": "students/helltaker.png", "is_active": true} },
-{"model": "students.student", "pk": 40, "fields": {"first_name": "Арсений", "last_name": "Кошелев", "patronymic": "Арсентьевич", "avatar": "students/appimagekit-supertux2.png", "is_active": true} },
-{"model": "students.student", "pk": 41, "fields": {"first_name": "Михаил", "last_name": "Зубов", "patronymic": "Юрьевич", "avatar": "students/edu.mit.Scratch.png", "is_active": true} },
-{"model": "students.student", "pk": 42, "fields": {"first_name": "Маргарита", "last_name": "Богданова", "patronymic": "Юрьевна", "avatar": "students/machinarium.png", "is_active": true} },
-{"model": "students.student", "pk": 43, "fields": {"first_name": "Милана", "last_name": "Иванова", "patronymic": "Антоновна", "avatar": "students/magicka-2.png", "is_active": true} },
-{"model": "students.student", "pk": 44, "fields": {"first_name": "Мария", "last_name": "Михайлова", "patronymic": "Максимовна", "avatar": "students/mcomix.png", "is_active": false} },
-{"model": "students.student", "pk": 45, "fields": {"first_name": "Василиса", "last_name": "Гордеева", "patronymic": "Владимировна", "avatar": "students/MediaElch.png", "is_active": false} },
-{"model": "students.student", "pk": 46, "fields": {"first_name": "Алина", "last_name": "Вешнякова", "patronymic": "Тимофеевна", "avatar": "students/meow.png", "is_active": true} },
-{"model": "students.student", "pk": 47, "fields": {"first_name": "Василиса", "last_name": "Беляева", "patronymic": "Артёмовна", "avatar": "students/meshlab.png", "is_active": true} },
-{"model": "students.student", "pk": 48, "fields": {"first_name": "Елена", "last_name": "Винокурова", "patronymic": "Романовна", "avatar": "students/minigalaxy.png", "is_active": true} },
-{"model": "students.student", "pk": 49, "fields": {"first_name": "Никита", "last_name": "Алексеев", "patronymic": "Мирославович", "avatar": "students/mpdevil.png", "is_active": true} },
-{"model": "students.student", "pk": 50, "fields": {"first_name": "Илья", "last_name": "Макаров", "patronymic": "Олегович", "avatar": "students/mullvad-vpn.png", "is_active": true} },
-{"model": "students.student", "pk": 51, "fields": {"first_name": "Варвара", "last_name": "Куликова", "patronymic": "Глебовна", "avatar": "students/netsniff-ng.png", "is_active": true} },
-{"model": "students.student", "pk": 52, "fields": {"first_name": "Данил", "last_name": "Олейников", "patronymic": "Дмитриевич", "avatar": "students/night-in-the-woods.png", "is_active": true} },
-{"model": "students.student", "pk": 53, "fields": {"first_name": "Алиса", "last_name": "Смирнова", "patronymic": "Степановна", "avatar": "students/no-more-room-in-hell.png", "is_active": true} },
-{"model": "students.student", "pk": 54, "fields": {"first_name": "Виктория", "last_name": "Абрамова", "patronymic": "Ильинична", "avatar": "students/np2.png", "is_active": true} },
-{"model": "students.student", "pk": 55, "fields": {"first_name": "Елисей", "last_name": "Широков", "patronymic": "Иванович", "avatar": "students/ocenaudio.png", "is_active": true} },
-{"model": "students.student", "pk": 56, "fields": {"first_name": "Ярослав", "last_name": "Петров", "patronymic": "Евгеньевич", "avatar": "students/offensive-security.png", "is_active": true} },
-{"model": "students.student", "pk": 57, "fields": {"first_name": "Сергей", "last_name": "Леонов", "patronymic": "Валерьевич", "avatar": "students/OpenLieroX.png", "is_active": true} },
-{"model": "students.student", "pk": 58, "fields": {"first_name": "Артём", "last_name": "Киселев", "patronymic": "Егорович", "avatar": "students/openxcom.png", "is_active": false} },
-{"model": "students.student", "pk": 59, "fields": {"first_name": "Арсений", "last_name": "Парфенов", "patronymic": "Ярославович", "avatar": "students/org.flozz.yoga-image-optimizer.png", "is_active": false} },
-{"model": "students.student", "pk": 60, "fields": {"first_name": "Егор", "last_name": "Голубев", "patronymic": "Валерьевич", "avatar": "students/org.gajim.Gajim.png", "is_active": false} },
-{"model": "students.student", "pk": 61, "fields": {"first_name": "Григорий", "last_name": "Титов", "patronymic": "Никитич", "avatar": "students/org.gnome.dspy.png", "is_active": false} },
-{"model": "students.student", "pk": 62, "fields": {"first_name": "Анастасия", "last_name": "Волкова", "patronymic": "Артёмовна", "avatar": "students/org.gnome.OfficeRunner.png", "is_active": false} },
-{"model": "students.student", "pk": 63, "fields": {"first_name": "Пётр", "last_name": "Казаков", "patronymic": "Егорович", "avatar": "students/org.kde.falkon.png", "is_active": false} },
-{"model": "students.student", "pk": 64, "fields": {"first_name": "Артём", "last_name": "Зимин", "patronymic": "Александрович", "avatar": "students/org.mpdevil.mpdevil.png", "is_active": true} },
-{"model": "students.student", "pk": 65, "fields": {"first_name": "Егор", "last_name": "Сорокин", "patronymic": "Даниилович", "avatar": "students/org.srb2.SRB2Kart.png", "is_active": true} },
-{"model": "students.student", "pk": 66, "fields": {"first_name": "Георгий", "last_name": "Чесноков", "patronymic": "Михайлович", "avatar": "students/oxygen-not-included.png", "is_active": true} },
-{"model": "students.student", "pk": 67, "fields": {"first_name": "Даниил", "last_name": "Суслов", "patronymic": "Маркович", "avatar": "students/pekka-kana-2.png", "is_active": false} },
-{"model": "students.student", "pk": 68, "fields": {"first_name": "Алиса", "last_name": "Лазарева", "patronymic": "Леонидовна", "avatar": "students/performous.png", "is_active": false} },
-{"model": "students.student", "pk": 69, "fields": {"first_name": "Даниил", "last_name": "Соловьев", "patronymic": "Романович", "avatar": "students/pia-manager.png", "is_active": false} },
-{"model": "students.student", "pk": 70, "fields": {"first_name": "Варвара", "last_name": "Прохорова", "patronymic": "Ильинична", "avatar": "students/planetary-annihilation-titans.png", "is_active": true} },
-{"model": "students.student", "pk": 71, "fields": {"first_name": "Виктория", "last_name": "Максимова", "patronymic": "Ярославовна", "avatar": "students/popcorn-time.png", "is_active": true} },
-{"model": "students.student", "pk": 72, "fields": {"first_name": "Кирилл", "last_name": "Хромов", "patronymic": "Егорович", "avatar": "students/prison-architect.png", "is_active": true} },
-{"model": "students.student", "pk": 73, "fields": {"first_name": "Виктория", "last_name": "Королева", "patronymic": "Михайловна", "avatar": "students/project-zomboid.png", "is_active": true} },
-{"model": "students.student", "pk": 74, "fields": {"first_name": "Дарья", "last_name": "Серова", "patronymic": "Александровна", "avatar": "students/raven-reader.png", "is_active": true} },
-{"model": "students.student", "pk": 75, "fields": {"first_name": "Ника", "last_name": "Семенова", "patronymic": "Александровна", "avatar": "students/reddit.png", "is_active": true} },
-{"model": "students.student", "pk": 76, "fields": {"first_name": "Матвей", "last_name": "Троицкий", "patronymic": "Романович", "avatar": "students/rememberthemilk.png", "is_active": true} },
-{"model": "students.student", "pk": 77, "fields": {"first_name": "Мария", "last_name": "Королева", "patronymic": "Тимуровна", "avatar": "students/renpy-demo.png", "is_active": true} },
-{"model": "students.student", "pk": 78, "fields": {"first_name": "Роман", "last_name": "Осипов", "patronymic": "Никитич", "avatar": "students/renpy.png", "is_active": true} },
-{"model": "students.student", "pk": 79, "fields": {"first_name": "Михаил", "last_name": "Иванов", "patronymic": "Павлович", "avatar": "students/restic.png", "is_active": true} },
-{"model": "students.student", "pk": 80, "fields": {"first_name": "Степан", "last_name": "Зайцев", "patronymic": "Елисеевич", "avatar": "students/rolled-out.png", "is_active": true} },
-{"model": "students.student", "pk": 81, "fields": {"first_name": "Григорий", "last_name": "Ильин", "patronymic": "Романович", "avatar": "students/scout-app.png", "is_active": true} },
-{"model": "students.student", "pk": 82, "fields": {"first_name": "Алина", "last_name": "Мартынова", "patronymic": "Константиновна", "avatar": "students/scratch.png", "is_active": true} },
-{"model": "students.student", "pk": 83, "fields": {"first_name": "Оливия", "last_name": "Кузьмина", "patronymic": "Артёмовна", "avatar": "students/searchmonkey.png", "is_active": true} },
-{"model": "students.student", "pk": 84, "fields": {"first_name": "Арина", "last_name": "Волкова", "patronymic": "Михайловна", "avatar": "students/skullgirls.png", "is_active": false} },
-{"model": "students.student", "pk": 85, "fields": {"first_name": "Алиса", "last_name": "Токарева", "patronymic": "Ивановна", "avatar": "students/smw.png", "is_active": false} },
-{"model": "students.student", "pk": 86, "fields": {"first_name": "Степан", "last_name": "Морозов", "patronymic": "Елисеевич", "avatar": "students/space-engineers.png", "is_active": false} },
-{"model": "students.student", "pk": 87, "fields": {"first_name": "Захар", "last_name": "Рыжов", "patronymic": "Александрович", "avatar": "students/sportstracker.png", "is_active": true} },
-{"model": "students.student", "pk": 88, "fields": {"first_name": "Вера", "last_name": "Николаева", "patronymic": "Романовна", "avatar": "students/squeak.png", "is_active": true} },
-{"model": "students.student", "pk": 89, "fields": {"first_name": "Максим", "last_name": "Крылов", "patronymic": "Романович", "avatar": "students/steam_icon_1275890.png", "is_active": false} },
-{"model": "students.student", "pk": 90, "fields": {"first_name": "Иван", "last_name": "Павлов", "patronymic": "Андреевич", "avatar": "students/steam_icon_233450.png", "is_active": false} },
-{"model": "students.student", "pk": 91, "fields": {"first_name": "Владимир", "last_name": "Яковлев", "patronymic": "Михайлович", "avatar": "students/supertuxkart.png", "is_active": false} },
-{"model": "students.student", "pk": 92, "fields": {"first_name": "Мелания", "last_name": "Иванова", "patronymic": "Тимофеевна", "avatar": "students/supertux.png", "is_active": true} },
-{"model": "students.student", "pk": 93, "fields": {"first_name": "Лев", "last_name": "Чистяков", "patronymic": "Робертович", "avatar": "students/teeworlds.png", "is_active": false} },
-{"model": "students.student", "pk": 94, "fields": {"first_name": "Давид", "last_name": "Федоров", "patronymic": "Маркович", "avatar": "students/teslagrad.png", "is_active": false} },
-{"model": "students.student", "pk": 95, "fields": {"first_name": "Екатерина", "last_name": "Волкова", "patronymic": "Ярославовна", "avatar": "students/the-binding-of-isaac-rebirth.png", "is_active": true} },
-{"model": "students.student", "pk": 96, "fields": {"first_name": "Светлана", "last_name": "Куприянова", "patronymic": "Александровна", "avatar": "students/toby-the-secret-mine.png", "is_active": false} },
-{"model": "students.student", "pk": 97, "fields": {"first_name": "Кира", "last_name": "Никулина", "patronymic": "Денисовна", "avatar": "students/toki-tori.png", "is_active": true} },
-{"model": "students.student", "pk": 98, "fields": {"first_name": "Алиса", "last_name": "Ананьева", "patronymic": "Максимовна", "avatar": "students/tuxpuck.png", "is_active": false} },
-{"model": "students.student", "pk": 99, "fields": {"first_name": "Мария", "last_name": "Терентьева", "patronymic": "Кирилловна", "avatar": "students/twitter.png", "is_active": true} }
+    {
+        "model": "students.student",
+        "pk": 1,
+        "fields": {
+            "first_name": "Кирилл",
+            "last_name": "Гусев",
+            "patronymic": "Тимофеевич",
+            "avatar": "students/aafm.png",
+            "is_active": true,
+            "email": "gusev.k.t_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 2,
+        "fields": {
+            "first_name": "Агата",
+            "last_name": "Власова",
+            "patronymic": "Максимовна",
+            "avatar": "students/abe.png",
+            "is_active": true,
+            "email": "vlasova.a.m_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 3,
+        "fields": {
+            "first_name": "Иван",
+            "last_name": "Калмыков",
+            "patronymic": "Александрович",
+            "avatar": "students/adventures-of-shuggy.png",
+            "is_active": true,
+            "email": "kalmyikov.i.a_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 4,
+        "fields": {
+            "first_name": "Александра",
+            "last_name": "Герасимова",
+            "patronymic": "Петровна",
+            "avatar": "students/afl.png",
+            "is_active": false,
+            "email": "gerasimova.a.p_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 5,
+        "fields": {
+            "first_name": "Полина",
+            "last_name": "Казакова",
+            "patronymic": "Егоровна",
+            "avatar": "students/alan-wake.png",
+            "is_active": true,
+            "email": "kazakova.p.e_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 6,
+        "fields": {
+            "first_name": "Ангелина",
+            "last_name": "Яковлева",
+            "patronymic": "Артемьевна",
+            "avatar": "students/alienfx.png",
+            "is_active": true,
+            "email": "yakovleva.a.a_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 7,
+        "fields": {
+            "first_name": "Станислав",
+            "last_name": "Большаков",
+            "patronymic": "Гордеевич",
+            "avatar": "students/annas-quest.png",
+            "is_active": false,
+            "email": "bolshakov.s.g_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 8,
+        "fields": {
+            "first_name": "Анастасия",
+            "last_name": "Михайлова",
+            "patronymic": "Максимовна",
+            "avatar": "students/appimagekit-Black_Chocobo.png",
+            "is_active": true,
+            "email": "mihajlova.a.m_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 9,
+        "fields": {
+            "first_name": "Ярослав",
+            "last_name": "Спиридонов",
+            "patronymic": "Михайлович",
+            "avatar": "students/armitage.png",
+            "is_active": true,
+            "email": "spiridonov.ya.m_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 10,
+        "fields": {
+            "first_name": "Александр",
+            "last_name": "Горелов",
+            "patronymic": "Владиславович",
+            "avatar": "students/baldis-basics.png",
+            "is_active": false,
+            "email": "gorelov.a.v_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 11,
+        "fields": {
+            "first_name": "Иван",
+            "last_name": "Ильин",
+            "patronymic": "Владиславович",
+            "avatar": "students/Black_Chocobo.png",
+            "is_active": true,
+            "email": "ilin.i.v_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 12,
+        "fields": {
+            "first_name": "Юлия",
+            "last_name": "Федорова",
+            "patronymic": "Данииловна",
+            "avatar": "students/catfish.png",
+            "is_active": false,
+            "email": "fedorova.yu.d_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 13,
+        "fields": {
+            "first_name": "Варвара",
+            "last_name": "Круглова",
+            "patronymic": "Алексеевна",
+            "avatar": "students/com.github.elfenware.badger.png",
+            "is_active": false,
+            "email": "kruglova.v.a_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 14,
+        "fields": {
+            "first_name": "Виктор",
+            "last_name": "Соловьев",
+            "patronymic": "Арсентьевич",
+            "avatar": "students/com.jonathankang.Weibird.png",
+            "is_active": false,
+            "email": "solovev.v.a_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 15,
+        "fields": {
+            "first_name": "Лиана",
+            "last_name": "Орлова",
+            "patronymic": "Алексеевна",
+            "avatar": "students/corebird.png",
+            "is_active": true,
+            "email": "orlova.l.a_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 16,
+        "fields": {
+            "first_name": "Амина",
+            "last_name": "Пономарева",
+            "patronymic": "Ярославовна",
+            "avatar": "students/cpu-x.png",
+            "is_active": false,
+            "email": "ponomareva.a.ya_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 18,
+        "fields": {
+            "first_name": "Владислав",
+            "last_name": "Калинин",
+            "patronymic": "Иванович",
+            "avatar": "students/danganronpa.png",
+            "is_active": true,
+            "email": "kalinin.v.i_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 19,
+        "fields": {
+            "first_name": "Александр",
+            "last_name": "Козловский",
+            "patronymic": "Александрович",
+            "avatar": "students/dbeaver.png",
+            "is_active": false,
+            "email": "kozlovskij.a.a_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 20,
+        "fields": {
+            "first_name": "Мария",
+            "last_name": "Фролова",
+            "patronymic": "Михайловна",
+            "avatar": "students/dino.png",
+            "is_active": true,
+            "email": "frolova.m.m_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 21,
+        "fields": {
+            "first_name": "Евгения",
+            "last_name": "Кудряшова",
+            "patronymic": "Максимовна",
+            "avatar": "students/distributor-logo-freedos.png",
+            "is_active": true,
+            "email": "kudryashova.e.m_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 22,
+        "fields": {
+            "first_name": "Владислав",
+            "last_name": "Баранов",
+            "patronymic": "Святославович",
+            "avatar": "students/distributor-logo-madlinux.png",
+            "is_active": false,
+            "email": "baranov.v.s_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 23,
+        "fields": {
+            "first_name": "Стефания",
+            "last_name": "Чернышева",
+            "patronymic": "Львовна",
+            "avatar": "students/dk.tangramgames.mrrescue.png",
+            "is_active": false,
+            "email": "chernyisheva.s.l_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 24,
+        "fields": {
+            "first_name": "Ирина",
+            "last_name": "Кузьмина",
+            "patronymic": "Александровна",
+            "avatar": "students/dont-starve-together.png",
+            "is_active": false,
+            "email": "kuzmina.i.a_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 25,
+        "fields": {
+            "first_name": "Тимур",
+            "last_name": "Глухов",
+            "patronymic": "Сергеевич",
+            "avatar": "students/dsda-doom.png",
+            "is_active": false,
+            "email": "gluhov.t.s_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 26,
+        "fields": {
+            "first_name": "Софья",
+            "last_name": "Артамонова",
+            "patronymic": "Александровна",
+            "avatar": "students/duckduckgo.png",
+            "is_active": true,
+            "email": "artamonova.s.a_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 27,
+        "fields": {
+            "first_name": "Лев",
+            "last_name": "Пастухов",
+            "patronymic": "Максимович",
+            "avatar": "students/duckstation.png",
+            "is_active": false,
+            "email": "pastuhov.l.m_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 28,
+        "fields": {
+            "first_name": "Кирилл",
+            "last_name": "Петров",
+            "patronymic": "Ильич",
+            "avatar": "students/emule.png",
+            "is_active": false,
+            "email": "petrov.k.i_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 29,
+        "fields": {
+            "first_name": "Анна",
+            "last_name": "Коновалова",
+            "patronymic": "Николаевна",
+            "avatar": "students/epiphany-game.png",
+            "is_active": true,
+            "email": "konovalova.a.n_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 31,
+        "fields": {
+            "first_name": "Полина",
+            "last_name": "Хохлова",
+            "patronymic": "Михайловна",
+            "avatar": "students/funkin.png",
+            "is_active": true,
+            "email": "hohlova.p.m_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 32,
+        "fields": {
+            "first_name": "Мария",
+            "last_name": "Игнатова",
+            "patronymic": "Львовна",
+            "avatar": "students/gajim.png",
+            "is_active": true,
+            "email": "ignatova.m.l_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 33,
+        "fields": {
+            "first_name": "Анастасия",
+            "last_name": "Попова",
+            "patronymic": "Артёмовна",
+            "avatar": "students/gens-gs.png",
+            "is_active": false,
+            "email": "popova.a.a_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 34,
+        "fields": {
+            "first_name": "Дмитрий",
+            "last_name": "Кулешов",
+            "patronymic": "Робертович",
+            "avatar": "students/gimp.png",
+            "is_active": false,
+            "email": "kuleshov.d.r_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 35,
+        "fields": {
+            "first_name": "Виктория",
+            "last_name": "Измайлова",
+            "patronymic": "Павловна",
+            "avatar": "students/google-contacts.png",
+            "is_active": false,
+            "email": "izmajlova.v.p_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 36,
+        "fields": {
+            "first_name": "Кира",
+            "last_name": "Фролова",
+            "patronymic": "Александровна",
+            "avatar": "students/gpodder.png",
+            "is_active": true,
+            "email": "frolova.k.a_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 37,
+        "fields": {
+            "first_name": "Леонид",
+            "last_name": "Соловьев",
+            "patronymic": "Степанович",
+            "avatar": "students/grim-fandango-remastered.png",
+            "is_active": true,
+            "email": "solovev.l.s_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 38,
+        "fields": {
+            "first_name": "Мария",
+            "last_name": "Логинова",
+            "patronymic": "Николаевна",
+            "avatar": "students/gta-vice-city.png",
+            "is_active": false,
+            "email": "loginova.m.n_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 39,
+        "fields": {
+            "first_name": "Елизавета",
+            "last_name": "Сергеева",
+            "patronymic": "Давидовна",
+            "avatar": "students/helltaker.png",
+            "is_active": false,
+            "email": "sergeeva.e.d_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 40,
+        "fields": {
+            "first_name": "Арсений",
+            "last_name": "Кошелев",
+            "patronymic": "Арсентьевич",
+            "avatar": "students/appimagekit-supertux2.png",
+            "is_active": true,
+            "email": "koshelev.a.a_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 41,
+        "fields": {
+            "first_name": "Михаил",
+            "last_name": "Зубов",
+            "patronymic": "Юрьевич",
+            "avatar": "students/edu.mit.Scratch.png",
+            "is_active": true,
+            "email": "zubov.m.yu_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 42,
+        "fields": {
+            "first_name": "Маргарита",
+            "last_name": "Богданова",
+            "patronymic": "Юрьевна",
+            "avatar": "students/machinarium.png",
+            "is_active": false,
+            "email": "bogdanova.m.yu_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 43,
+        "fields": {
+            "first_name": "Милана",
+            "last_name": "Иванова",
+            "patronymic": "Антоновна",
+            "avatar": "students/magicka-2.png",
+            "is_active": true,
+            "email": "ivanova.m.a_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 44,
+        "fields": {
+            "first_name": "Мария",
+            "last_name": "Михайлова",
+            "patronymic": "Максимовна",
+            "avatar": "students/mcomix.png",
+            "is_active": false,
+            "email": "mihajlova.m.m_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 45,
+        "fields": {
+            "first_name": "Василиса",
+            "last_name": "Гордеева",
+            "patronymic": "Владимировна",
+            "avatar": "students/MediaElch.png",
+            "is_active": true,
+            "email": "gordeeva.v.v_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 46,
+        "fields": {
+            "first_name": "Алина",
+            "last_name": "Вешнякова",
+            "patronymic": "Тимофеевна",
+            "avatar": "students/meow.png",
+            "is_active": true,
+            "email": "veshnyakova.a.t_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 47,
+        "fields": {
+            "first_name": "Василиса",
+            "last_name": "Беляева",
+            "patronymic": "Артёмовна",
+            "avatar": "students/meshlab.png",
+            "is_active": true,
+            "email": "belyaeva.v.a_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 48,
+        "fields": {
+            "first_name": "Елена",
+            "last_name": "Винокурова",
+            "patronymic": "Романовна",
+            "avatar": "students/minigalaxy.png",
+            "is_active": true,
+            "email": "vinokurova.e.r_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 49,
+        "fields": {
+            "first_name": "Никита",
+            "last_name": "Алексеев",
+            "patronymic": "Мирославович",
+            "avatar": "students/mpdevil.png",
+            "is_active": true,
+            "email": "alekseev.n.m_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 50,
+        "fields": {
+            "first_name": "Илья",
+            "last_name": "Макаров",
+            "patronymic": "Олегович",
+            "avatar": "students/mullvad-vpn.png",
+            "is_active": true,
+            "email": "makarov.i.o_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 51,
+        "fields": {
+            "first_name": "Варвара",
+            "last_name": "Куликова",
+            "patronymic": "Глебовна",
+            "avatar": "students/netsniff-ng.png",
+            "is_active": false,
+            "email": "kulikova.v.g_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 52,
+        "fields": {
+            "first_name": "Данил",
+            "last_name": "Олейников",
+            "patronymic": "Дмитриевич",
+            "avatar": "students/night-in-the-woods.png",
+            "is_active": false,
+            "email": "olejnikov.d.d_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 53,
+        "fields": {
+            "first_name": "Алиса",
+            "last_name": "Смирнова",
+            "patronymic": "Степановна",
+            "avatar": "students/no-more-room-in-hell.png",
+            "is_active": true,
+            "email": "smirnova.a.s_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 54,
+        "fields": {
+            "first_name": "Виктория",
+            "last_name": "Абрамова",
+            "patronymic": "Ильинична",
+            "avatar": "students/np2.png",
+            "is_active": true,
+            "email": "abramova.v.i_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 55,
+        "fields": {
+            "first_name": "Елисей",
+            "last_name": "Широков",
+            "patronymic": "Иванович",
+            "avatar": "students/ocenaudio.png",
+            "is_active": false,
+            "email": "shirokov.e.i_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 56,
+        "fields": {
+            "first_name": "Ярослав",
+            "last_name": "Петров",
+            "patronymic": "Евгеньевич",
+            "avatar": "students/offensive-security.png",
+            "is_active": true,
+            "email": "petrov.ya.e_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 57,
+        "fields": {
+            "first_name": "Сергей",
+            "last_name": "Леонов",
+            "patronymic": "Валерьевич",
+            "avatar": "students/OpenLieroX.png",
+            "is_active": false,
+            "email": "leonov.s.v_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 58,
+        "fields": {
+            "first_name": "Артём",
+            "last_name": "Киселев",
+            "patronymic": "Егорович",
+            "avatar": "students/openxcom.png",
+            "is_active": false,
+            "email": "kiselev.a.e_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 59,
+        "fields": {
+            "first_name": "Арсений",
+            "last_name": "Парфенов",
+            "patronymic": "Ярославович",
+            "avatar": "students/org.flozz.yoga-image-optimizer.png",
+            "is_active": false,
+            "email": "parfenov.a.ya_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 60,
+        "fields": {
+            "first_name": "Егор",
+            "last_name": "Голубев",
+            "patronymic": "Валерьевич",
+            "avatar": "students/org.gajim.Gajim.png",
+            "is_active": true,
+            "email": "golubev.e.v_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 61,
+        "fields": {
+            "first_name": "Григорий",
+            "last_name": "Титов",
+            "patronymic": "Никитич",
+            "avatar": "students/org.gnome.dspy.png",
+            "is_active": false,
+            "email": "titov.g.n_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 62,
+        "fields": {
+            "first_name": "Анастасия",
+            "last_name": "Волкова",
+            "patronymic": "Артёмовна",
+            "avatar": "students/org.gnome.OfficeRunner.png",
+            "is_active": false,
+            "email": "volkova.a.a_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 63,
+        "fields": {
+            "first_name": "Пётр",
+            "last_name": "Казаков",
+            "patronymic": "Егорович",
+            "avatar": "students/org.kde.falkon.png",
+            "is_active": false,
+            "email": "kazakov.p.e_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 64,
+        "fields": {
+            "first_name": "Артём",
+            "last_name": "Зимин",
+            "patronymic": "Александрович",
+            "avatar": "students/org.mpdevil.mpdevil.png",
+            "is_active": true,
+            "email": "zimin.a.a_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 65,
+        "fields": {
+            "first_name": "Егор",
+            "last_name": "Сорокин",
+            "patronymic": "Даниилович",
+            "avatar": "students/org.srb2.SRB2Kart.png",
+            "is_active": false,
+            "email": "sorokin.e.d_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 66,
+        "fields": {
+            "first_name": "Георгий",
+            "last_name": "Чесноков",
+            "patronymic": "Михайлович",
+            "avatar": "students/oxygen-not-included.png",
+            "is_active": false,
+            "email": "chesnokov.g.m_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 67,
+        "fields": {
+            "first_name": "Даниил",
+            "last_name": "Суслов",
+            "patronymic": "Маркович",
+            "avatar": "students/pekka-kana-2.png",
+            "is_active": false,
+            "email": "suslov.d.m_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 68,
+        "fields": {
+            "first_name": "Алиса",
+            "last_name": "Лазарева",
+            "patronymic": "Леонидовна",
+            "avatar": "students/performous.png",
+            "is_active": false,
+            "email": "lazareva.a.l_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 69,
+        "fields": {
+            "first_name": "Даниил",
+            "last_name": "Соловьев",
+            "patronymic": "Романович",
+            "avatar": "students/pia-manager.png",
+            "is_active": true,
+            "email": "solovev.d.r_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 70,
+        "fields": {
+            "first_name": "Варвара",
+            "last_name": "Прохорова",
+            "patronymic": "Ильинична",
+            "avatar": "students/planetary-annihilation-titans.png",
+            "is_active": true,
+            "email": "prohorova.v.i_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 71,
+        "fields": {
+            "first_name": "Виктория",
+            "last_name": "Максимова",
+            "patronymic": "Ярославовна",
+            "avatar": "students/popcorn-time.png",
+            "is_active": true,
+            "email": "maksimova.v.ya_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 72,
+        "fields": {
+            "first_name": "Кирилл",
+            "last_name": "Хромов",
+            "patronymic": "Егорович",
+            "avatar": "students/prison-architect.png",
+            "is_active": true,
+            "email": "hromov.k.e_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 73,
+        "fields": {
+            "first_name": "Виктория",
+            "last_name": "Королева",
+            "patronymic": "Михайловна",
+            "avatar": "students/project-zomboid.png",
+            "is_active": false,
+            "email": "koroleva.v.m_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 74,
+        "fields": {
+            "first_name": "Дарья",
+            "last_name": "Серова",
+            "patronymic": "Александровна",
+            "avatar": "students/raven-reader.png",
+            "is_active": true,
+            "email": "serova.d.a_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 75,
+        "fields": {
+            "first_name": "Ника",
+            "last_name": "Семенова",
+            "patronymic": "Александровна",
+            "avatar": "students/reddit.png",
+            "is_active": false,
+            "email": "semenova.n.a_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 76,
+        "fields": {
+            "first_name": "Матвей",
+            "last_name": "Троицкий",
+            "patronymic": "Романович",
+            "avatar": "students/rememberthemilk.png",
+            "is_active": true,
+            "email": "troitskij.m.r_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 77,
+        "fields": {
+            "first_name": "Мария",
+            "last_name": "Королева",
+            "patronymic": "Тимуровна",
+            "avatar": "students/renpy-demo.png",
+            "is_active": true,
+            "email": "koroleva.m.t_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 78,
+        "fields": {
+            "first_name": "Роман",
+            "last_name": "Осипов",
+            "patronymic": "Никитич",
+            "avatar": "students/renpy.png",
+            "is_active": true,
+            "email": "osipov.r.n_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 79,
+        "fields": {
+            "first_name": "Михаил",
+            "last_name": "Иванов",
+            "patronymic": "Павлович",
+            "avatar": "students/restic.png",
+            "is_active": false,
+            "email": "ivanov.m.p_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 80,
+        "fields": {
+            "first_name": "Степан",
+            "last_name": "Зайцев",
+            "patronymic": "Елисеевич",
+            "avatar": "students/rolled-out.png",
+            "is_active": true,
+            "email": "zajtsev.s.e_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 81,
+        "fields": {
+            "first_name": "Григорий",
+            "last_name": "Ильин",
+            "patronymic": "Романович",
+            "avatar": "students/scout-app.png",
+            "is_active": true,
+            "email": "ilin.g.r_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 82,
+        "fields": {
+            "first_name": "Алина",
+            "last_name": "Мартынова",
+            "patronymic": "Константиновна",
+            "avatar": "students/scratch.png",
+            "is_active": false,
+            "email": "martyinova.a.k_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 83,
+        "fields": {
+            "first_name": "Оливия",
+            "last_name": "Кузьмина",
+            "patronymic": "Артёмовна",
+            "avatar": "students/searchmonkey.png",
+            "is_active": false,
+            "email": "kuzmina.o.a_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 84,
+        "fields": {
+            "first_name": "Арина",
+            "last_name": "Волкова",
+            "patronymic": "Михайловна",
+            "avatar": "students/skullgirls.png",
+            "is_active": true,
+            "email": "volkova.a.m_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 85,
+        "fields": {
+            "first_name": "Алиса",
+            "last_name": "Токарева",
+            "patronymic": "Ивановна",
+            "avatar": "students/smw.png",
+            "is_active": false,
+            "email": "tokareva.a.i_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 86,
+        "fields": {
+            "first_name": "Степан",
+            "last_name": "Морозов",
+            "patronymic": "Елисеевич",
+            "avatar": "students/space-engineers.png",
+            "is_active": true,
+            "email": "morozov.s.e_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 87,
+        "fields": {
+            "first_name": "Захар",
+            "last_name": "Рыжов",
+            "patronymic": "Александрович",
+            "avatar": "students/sportstracker.png",
+            "is_active": false,
+            "email": "ryizhov.z.a_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 88,
+        "fields": {
+            "first_name": "Вера",
+            "last_name": "Николаева",
+            "patronymic": "Романовна",
+            "avatar": "students/squeak.png",
+            "is_active": true,
+            "email": "nikolaeva.v.r_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 89,
+        "fields": {
+            "first_name": "Максим",
+            "last_name": "Крылов",
+            "patronymic": "Романович",
+            "avatar": "students/steam_icon_1275890.png",
+            "is_active": false,
+            "email": "kryilov.m.r_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 90,
+        "fields": {
+            "first_name": "Иван",
+            "last_name": "Павлов",
+            "patronymic": "Андреевич",
+            "avatar": "students/steam_icon_233450.png",
+            "is_active": false,
+            "email": "pavlov.i.a_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 91,
+        "fields": {
+            "first_name": "Владимир",
+            "last_name": "Яковлев",
+            "patronymic": "Михайлович",
+            "avatar": "students/supertuxkart.png",
+            "is_active": true,
+            "email": "yakovlev.v.m_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 92,
+        "fields": {
+            "first_name": "Мелания",
+            "last_name": "Иванова",
+            "patronymic": "Тимофеевна",
+            "avatar": "students/supertux.png",
+            "is_active": true,
+            "email": "ivanova.m.t_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 93,
+        "fields": {
+            "first_name": "Лев",
+            "last_name": "Чистяков",
+            "patronymic": "Робертович",
+            "avatar": "students/teeworlds.png",
+            "is_active": true,
+            "email": "chistyakov.l.r_2008@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 94,
+        "fields": {
+            "first_name": "Давид",
+            "last_name": "Федоров",
+            "patronymic": "Маркович",
+            "avatar": "students/teslagrad.png",
+            "is_active": false,
+            "email": "fedorov.d.m_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 95,
+        "fields": {
+            "first_name": "Екатерина",
+            "last_name": "Волкова",
+            "patronymic": "Ярославовна",
+            "avatar": "students/the-binding-of-isaac-rebirth.png",
+            "is_active": false,
+            "email": "volkova.e.ya_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 96,
+        "fields": {
+            "first_name": "Светлана",
+            "last_name": "Куприянова",
+            "patronymic": "Александровна",
+            "avatar": "students/toby-the-secret-mine.png",
+            "is_active": false,
+            "email": "kupriyanova.s.a_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 97,
+        "fields": {
+            "first_name": "Кира",
+            "last_name": "Никулина",
+            "patronymic": "Денисовна",
+            "avatar": "students/toki-tori.png",
+            "is_active": true,
+            "email": "nikulina.k.d_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 98,
+        "fields": {
+            "first_name": "Алиса",
+            "last_name": "Ананьева",
+            "patronymic": "Максимовна",
+            "avatar": "students/tuxpuck.png",
+            "is_active": false,
+            "email": "ananeva.a.m_2007@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 99,
+        "fields": {
+            "first_name": "Мария",
+            "last_name": "Терентьева",
+            "patronymic": "Кирилловна",
+            "avatar": "students/twitter.png",
+            "is_active": true,
+            "email": "terenteva.m.k_2006@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 100,
+        "fields": {
+            "first_name": "Ярослав",
+            "last_name": "Михеев",
+            "patronymic": "Марсельевич",
+            "avatar": "students/desura.png",
+            "is_active": true,
+            "email": "miheev.ya.m_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.student",
+        "pk": 101,
+        "fields": {
+            "first_name": "Мурат",
+            "last_name": "Беклемишев",
+            "patronymic": "Данилович",
+            "avatar": "students/abe_HMmNjmG.png",
+            "is_active": false,
+            "email": "beklemishev.m.d_2005@mail.ru"
+        }
+    },
+    {
+        "model": "students.subject",
+        "pk": 2,
+        "fields": {
+            "title": "HTML",
+            "description": "webpages with html/sql/css/js",
+            "student": 49
+        }
+    },
+    {
+        "model": "students.subject",
+        "pk": 3,
+        "fields": {
+            "title": "DJANGO",
+            "description": "django and sql cources",
+            "student": 43
+        }
+    },
+    {
+        "model": "students.subject",
+        "pk": 4,
+        "fields": {
+            "title": "bash/awk/sed",
+            "description": "shell scripting",
+            "student": 47
+        }
+    }
 ]
